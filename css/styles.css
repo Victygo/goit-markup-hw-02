@@ -3,7 +3,7 @@ body {
     font-family: "Roboto", "Raleway", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
 }
 
 ul,
@@ -19,11 +19,12 @@ a {
 address {
     font-style: normal;
 }
+
 /* #endregion */
 
 /* #region Common */
 
-.section-subtitle{
+.section-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -62,6 +63,7 @@ address {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 /* #endregion */
 
 /* #region Button */
@@ -74,10 +76,12 @@ address {
     color: #fff;
 
 }
+
 button {
     font-family: inherit;
     cursor: pointer;
 }
+
 /* #endregion */
 
 /* #region Header */
@@ -97,7 +101,7 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    
+
 }
 
 .nav-menu {}
@@ -106,9 +110,7 @@ button {
 
 .nav-link {}
 
-.contacts {
-    
-}
+.contacts {}
 
 .contacts-item {
     font-weight: 400;
@@ -118,6 +120,7 @@ button {
 }
 
 .contacts-link {}
+
 /* #endregion */
 
 /* #region hero */
@@ -174,8 +177,7 @@ button {
     text-align: center;
 }
 
-.ourteam-list {
-}
+.ourteam-list {}
 
 .ourteam-item {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -197,6 +199,7 @@ button {
     text-align: center;
     color: #434455;
 }
+
 /* #endregion */
 
 /* #region Our Portfolio */
@@ -204,9 +207,7 @@ button {
 
 .ourportfolio-title {}
 
-.portfolio-list {
-
-}
+.portfolio-list {}
 
 .portfolio-list-item {
     background-color: #fff;
@@ -218,12 +219,13 @@ button {
     line-height: 1.5;
     color: #434455;
 }
+
 /* #endregion */
 
 /* #region Footer */
 
 .logo-footer {
-color: #f4f4fd;
+    color: #f4f4fd;
 }
 
 .footer {
@@ -232,10 +234,11 @@ color: #f4f4fd;
 
 .footer-caption {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f4f4fd;
 }
+
 /* #endregion */
 
 
