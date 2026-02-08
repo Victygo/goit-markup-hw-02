@@ -1,9 +1,10 @@
 /* #region Base styles */
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
+    background-color: #fff
 }
 
 ul,
@@ -19,6 +20,7 @@ a {
 address {
     font-style: normal;
 }
+
 
 /* #endregion */
 
@@ -48,6 +50,24 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-shadow {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .visually-hidden {
@@ -81,6 +101,11 @@ button {
     font-family: inherit;
     cursor: pointer;
 }
+button:hover,
+button:focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #404bbf;
+}
 
 /* #endregion */
 
@@ -90,17 +115,12 @@ button {
     color: #2e2f42;
 }
 
-.logo {
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
 
 .nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 
 }
 
@@ -110,6 +130,14 @@ button {
 
 .nav-link {}
 
+.nav-link:hover,
+.nav-link:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;}
+
 .contacts {}
 
 .contacts-item {
@@ -117,9 +145,26 @@ button {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
-.contacts-link {}
+.contacts-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
 
 /* #endregion */
 
@@ -136,6 +181,7 @@ button {
     line-height: 1.07;
     text-align: center;
     color: #fff;
+    letter-spacing: 0.02em;
 }
 
 /* #endregion */
@@ -151,6 +197,7 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 
@@ -159,6 +206,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 /* #endregion */
@@ -225,6 +273,12 @@ button {
 /* #region Footer */
 
 .logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #f4f4fd;
 }
 
