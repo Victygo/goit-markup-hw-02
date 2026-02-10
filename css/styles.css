@@ -1,7 +1,7 @@
 /* #region Base styles */
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     background-color: #fff;
@@ -54,7 +54,7 @@ address {
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -68,7 +68,6 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .visually-hidden {
@@ -139,14 +138,12 @@ button:focus {
 .contacts {}
 
 .contacts-item {
-    font-weight: 400;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
 }
 
 .contacts-link {
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -155,7 +152,6 @@ button:focus {
 
 .contacts-link:hover,
 .contacts-link:focus {
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
@@ -197,7 +193,6 @@ button:focus {
 
 
 .features-caption {
-    font-weight: 400;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
@@ -223,7 +218,6 @@ button:focus {
 .ourteam-list {}
 
 .ourteam-item {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 
@@ -239,7 +233,6 @@ button:focus {
 }
 
 .ourteam-name-caption {
-    font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5;
     text-align: center;
@@ -261,7 +254,6 @@ button:focus {
 }
 
 .ourportfolio-caption {
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -286,7 +278,6 @@ button:focus {
 }
 
 .footer-caption {
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
