@@ -2,8 +2,9 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.02em;
+    background-color: #fff;
     color: #2e2f42;
 }
 
@@ -90,7 +91,6 @@ address {
 .btn {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
@@ -118,7 +118,6 @@ button:focus {
 
 .nav {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
@@ -133,7 +132,6 @@ button:focus {
 .nav-link:hover,
 .nav-link:focus {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;}
@@ -142,7 +140,6 @@ button:focus {
 
 .contacts-item {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
@@ -150,7 +147,6 @@ button:focus {
 
 .contacts-link {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -160,7 +156,6 @@ button:focus {
 .contacts-link:hover,
 .contacts-link:focus {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
@@ -203,7 +198,6 @@ button:focus {
 
 .features-caption {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
@@ -222,7 +216,6 @@ button:focus {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    font-weight: 500;
     letter-spacing: 0.02em;     
     text-align: center;
 }
@@ -247,7 +240,6 @@ button:focus {
 
 .ourteam-name-caption {
     font-weight: 400;
-    font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     text-align: center;
@@ -270,7 +262,6 @@ button:focus {
 
 .ourportfolio-caption {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -296,7 +287,6 @@ button:focus {
 
 .footer-caption {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
